@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: rgb(222, 228, 232);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+nav{
+    font-family: 'PT Serif', serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 19px;
+}
+.brand img{
+    width: 55px;
+    padding: 0 7px;
+    cursor: pointer;
+
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.container{
+    font-family: 'ariel', sans-serif;
+    min-height: 62vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url('pexels-photo-1105666.webp');
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+
+}
+.icons{
+    margin-top:17px;
+    cursor: pointer;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+
+nav {
+    position: relative;
+}
+
+li.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+li.logo img {
+    border-radius: 50%;
+    max-width: 40px; 
+    height: auto; 
+    cursor: pointer;
+}
+
+li.seshasi {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 52%;
+    font-style: normal;
+    cursor: pointer;
+}
+
+li.seshasi::before {
+    content: '˅';
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-display:  block;
+    margin-top: auto;
+    display: inline-block;
+    margin-right: 5px; 
+    color: #fff; 
+    align-items: center;
+
+    font-style: normal;
+    cursor: pointer
+    
+};
+
+.repeat {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed;
+    bottom: 20px;
+    left: 20px; 
+}
+
+body {
+    background-image: url('pexels-photo-1105666.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; 
+    padding: 0;
+}
+
+nav {
+    position: relative;
+}
+
+li.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bottom .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.bottom .controls i {
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    padding:0%;
+    margin-top: -100px;
+    font-weight: bold;
+}
+
+.bottom .controls i:hover {
+    background-color: #333;
+}
+
+
+.songg{
+    animation: infinite;
+}
+
+
+.a:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+.b:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+.c:hover{
+    background-color: #333;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.d:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+.e:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+
+.brand{
+    cursor: pointer;
+}
+
+
+#search-bar {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px; 
+    transition: border-color 0.2s ease-in-out;
+}
+
+#search-bar:focus {
+    border-color: #333;
+}
+
+
+form {
+    display: flex; 
+    align-items: center; 
+    margin: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    cursor: pointer; 
+}
+
+
